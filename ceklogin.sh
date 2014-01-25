@@ -17,8 +17,9 @@ do
 		echo "$PID - $USER - $IP";
 	fi
 done
-echo "---";
-
+echo "";
+echo "-------------------";
+echo "";
 data=( `ps aux | grep "\[priv\]" | sort -k 72 | awk '{print $2}'`);
 
 echo "Login User OpenSSH";
