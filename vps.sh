@@ -19,5 +19,4 @@ sed -i 's/auth.log/secure/g' ceklogin.sh
 chmod +x ceklogin.sh
 ./ceklogin.sh
 
-http://newradix.net/repo/sshd_config
 
