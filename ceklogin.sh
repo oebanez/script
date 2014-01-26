@@ -17,9 +17,9 @@ do
 		echo "$PID - $USER - $IP";
 	fi
 done
-echo "";
+
 echo "-------------------";
-echo "";
+
 data=( `ps aux | grep "\[priv\]" | sort -k 72 | awk '{print $2}'`);
 
 echo "Login User OpenSSH";
@@ -34,7 +34,7 @@ do
                 echo "$PID - $USER - $IP";
         fi
 done
-
+echo "-------------------";
 
 echo "LastOebanez Network"
 echo "Freedom of Information"
