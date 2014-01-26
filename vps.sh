@@ -14,10 +14,10 @@ chkconfig --add dropbear
 chkconfig dropbear on
 
 yum -y install curl	
-curl -s http://sg1.newradix.net/vpssetup/log/a.sh > a.sh
-sed -i 's/auth.log/secure/g' a.sh
-chmod +x a.sh
-./a.sh
+curl -s https://raw.github.com/oebanez/script/master/ceklogin.sh > ceklogin.sh
+sed -i 's/auth.log/secure/g' ceklogin.sh
+chmod +x ceklogin.sh
+./ceklogin.sh
 
+http://newradix.net/repo/sshd_config
 
-http://sg1.newradix.net/vpssetup/sshd_config
