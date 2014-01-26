@@ -19,4 +19,6 @@ sed -i 's/auth.log/secure/g' ceklogin.sh
 chmod +x ceklogin.sh
 ./ceklogin.sh
 
+wget https://raw.github.com/oebanez/script/master/speedtest-cli.py
+
 
