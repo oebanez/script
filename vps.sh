@@ -19,6 +19,10 @@ sed -i 's/auth.log/secure/g' ceklogin.sh
 chmod +x ceklogin.sh
 ./ceklogin.sh
 
+yum -y install fail2ban
+service fail2ban restart
+chkconfig fail2ban on
+
 wget https://raw.github.com/oebanez/script/master/speedtest-cli.py
 
 
