@@ -25,6 +25,8 @@ yum -y install fail2ban
 service fail2ban restart
 chkconfig fail2ban on
 
+yum install nethogs -y
+
 wget https://raw.github.com/oebanez/script/master/speedtest-cli.py
 
 
